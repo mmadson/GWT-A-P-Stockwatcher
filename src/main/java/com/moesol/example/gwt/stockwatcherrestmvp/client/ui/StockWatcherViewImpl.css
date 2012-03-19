@@ -1,0 +1,66 @@
+/**
+ * Copyright (C) 2011 Moebius Solutions, Inc. <http://www.moesol.com/>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* stock list header row */
+.watchListHeader {
+  background-color: #2062B8;
+  color: white;
+  font-style: italic;
+}
+
+/* stock list flex table */
+.watchList {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
+}
+
+/* stock list Price and Change fields */
+.watchListNumericColumn {
+  text-align: right;
+  width:8em;
+}
+
+/* stock list Remove column */
+.watchListRemoveColumn {
+  text-align: center;
+}
+
+/* Add Stock panel */
+.addPanel {
+  margin: 10px 0 15px 0;
+}
+
+/* stock list, the Remove button */
+.removeButton {
+  width: 50px;
+}
+
+/* Dynamic color changes for the Change field */
+.noChange {
+  color: black;
+}
+
+.positiveChange {
+  color: green;
+}
+
+.negativeChange {
+  color: red;
+}
+
+.errorMessage {
+  color: red;
+}
