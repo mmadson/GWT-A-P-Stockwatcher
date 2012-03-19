@@ -1,2 +1,1 @@
-Reworking the canonical GWT StockWatcher example to use GWT's Activities and Places MVP facilities
-and Jersey JAX-RS backend to serve JSON data.
+Reworking the canonical GWT StockWatcher example to use GWT's Activities and Places MVP facilities and Jersey JAX-RS backend to serve JSON data.
